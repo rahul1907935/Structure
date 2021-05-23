@@ -4,7 +4,7 @@ typedef struct
 {
 char name[30];
 int number;
-int age;
+int department name;
 int salary;
 } 
 Employee;
@@ -20,8 +20,8 @@ printf("Name: ");
 scanf("%s",employees[i].name);
 printf("Number: ");
 scanf("%d",&employees[i].number);
-printf("Age: ");
-scanf("%d",&employees[i].age);
+printf("Department name: ");
+scanf("%d",&employees[i].department name);
 printf("Salary: ");
 scanf("%d",&employees[i].salary);
 printf("\n");
@@ -33,8 +33,8 @@ printf("Name \t: ");
 printf("%s \n",employees[i].name);
 printf("Number \t: ");
 printf("%d \n",employees[i].number);
-printf("Age \t: ");
-printf("%d \n",employees[i].age);
+printf("Department name \t: ");
+printf("%d \n",employees[i].department name);
 printf("Salary \t: ");
 printf("%d \n",employees[i].salary);
 printf("\n");
